@@ -1,0 +1,161 @@
+/* Styles généraux */
+font-family : Helvetica neue,roboto;
+font-style : bold;
+
+#box-2 {
+
+    display: inline;
+
+    width: 100px;
+
+    hauteur: 100px;
+
+    fond: bleu;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #321010;
+
+}
+
+/* Styles pour la navigation */
+nav {
+    background-color: #333;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+#home {
+    background-color: #7fa481;
+    color: white;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+/* Formulaire de contact */
+form {
+    margin: 0 auto;
+    width: 300px;
+}
+
+table {
+    width: 100%;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+footer ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer img {
+    vertical-align: middle;
+}
+
+    {
+    div margin-top: 20px margin-bottom:30px margin-left:25px margin-right:40px
+}
+
+.about {
+    border-radius: 15px;
+    /* Rayon de bordure arrondi */
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+    /* Effet d'ombre intérieure inset */
+    padding: 20px;
+    background-color: #f9f9f9;
+    /* Couleur de fond pour le contraste */
+
+}
+
+/* Style pour la section My Work */
+.work {
+    border-radius: 15px;
+    /* Rayon de bordure arrondi */
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+    /* Effet d'ombre intérieure inset */
+    padding: 20px;
+    background-color: #f9f9f9;
+    /* Couleur de fond pour le contraste */
+}
+
+/* style pour le section resume */
+.resume {
+    border-radius: 15px;
+    /* Rayon de bordure arrondi */
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+    /* Effet d'ombre intérieure inset */
+    padding: 20px;
+    background-color: #f9f9f9;
+    /* Couleur de fond pour le contraste */
+}
+
+.contact {
+    border-radius: 15px;
+    box-shadow: inset 0 0 10px rgba(red, green, blue, alpha);
+    padding: 20px;
+    background-color: #948e8e;
+}
