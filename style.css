@@ -1,27 +1,28 @@
-/* Styles généraux */
-font-family : Helvetica neue,roboto;git 
-font-style : bold;
-
 #box-2 {
 
     display: inline;
 
     width: 100px;
 
-    hauteur: 100px;
+    height: 100px;
 
-    fond: bleu;
+    background-color: bleu;
 
 }
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #321010;
 
-}
+        font-family: 'Roboto', sans-serif; /* Utilisez Roboto ici */
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+        color: #321010;
+    }
+    
+    /* Autres styles restent inchangés... */
+    
+
+
 
 /* Styles pour la navigation */
 nav {
@@ -116,9 +117,10 @@ footer img {
     vertical-align: middle;
 }
 
-    {
-    div margin-top: 20px margin-bottom:30px margin-left:25px margin-right:40px
-}
+/* div {
+    margin-top: 20px margin-bottom:30px margin-left:25px margin-right:40px
+    margin: 1 2 3 4
+} */
 
 .about {
     border-radius: 15px;
